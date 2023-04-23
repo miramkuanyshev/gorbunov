@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header {
+  display: flex;
+}
+.header-logo__item {
+  width: 170px;
+}
+.header-navigation {
+  font-size: 22px;
+}
+.header .navigation-menu {
+  display: flex;
+}
+.header .navigation-menu__item {
+  margin: 30px 20%;
+  color: #ffffff;
+}
+
+header {
+  background: #ce2b30;
+}
+
+.backgroung-music {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}/*# sourceMappingURL=style.css.map */

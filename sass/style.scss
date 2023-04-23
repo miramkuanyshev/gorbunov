@@ -1,0 +1,41 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.header {
+    display: flex;
+
+    &-logo {
+        &__item {
+            width: 170px;
+        }
+    }
+
+
+    &-navigation {
+        font-size: 22px;
+    }
+
+    .navigation {
+        &-menu {
+            display: flex;
+
+            &__item {
+                margin: 30px 20%;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+header {
+    background: #ce2b30;
+}
+
+.backgroung-music {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
