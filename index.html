@@ -11,10 +11,6 @@
 </head>
 
 <body>
-    <audio controls="controls" autoplay="autoplay" class="backgroung-music">
-        <source src="./music/music.wav">
-        <source src="./music/music.ogg">
-    </audio>
     <header>
         <div class="container">
             <div class="header">
@@ -32,6 +28,27 @@
             </div>
         </div>
     </header>
+    <div class="fullscreen-bg">
+        <div class="overlay">
+            <div class="content">
+                <div class="content-img">
+                    <img src="./image/gorbunov.png" alt="Фото" class="content-img__item">
+                </div>
+                <div class="content-text">
+                    <h1 class="content-text__title">Горбунов Маркел Осипович</h1>
+                    <span class="content-text__description">
+                        И мы хотим, чтобы вы так же честным трудом прожили жизнь, как прожили наши предки, честную и трудолюбивую. И при жизни, оглядываясь назад, не краснели на закате своей жизни, и гордились своей родословной, а чтобы гордиться нужно, иметь представление о ней, о своей родословной
+                    </span>
+                </div>
+            </div>
+        </div>
+        <video loop="" muted="" autoplay="" class="fullscreen-bg__video">
+            <source src="/music/fon.mp4">
+        </video>
+    </div>
+
+    <audio src="./music/music.wav" controls autoplay class="background-music"></audio>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
