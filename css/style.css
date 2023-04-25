@@ -13,15 +13,19 @@
 
 .header-navigation {
   font-size: 22px;
+  width: 80%;
 }
 
 .header .navigation-menu {
   display: flex;
+  justify-content: space-between;
 }
 
 .header .navigation-menu__item {
   margin: 30px 20%;
   color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
 }
 
 header {
@@ -122,7 +126,7 @@ p {
 }
 
 .content-biography {
-  
+
   width: 1000px;
   margin: auto auto;
   display: flex;
@@ -136,11 +140,6 @@ p {
   transform: translate(-50%, -50%);
 }
 
-a {
-  text-decoration:none;
-  color: #ffffff;
-}
-
-a:hover {
+.navigation-menu__item:hover {
   border-bottom: #ffffff 5px solid;
 }

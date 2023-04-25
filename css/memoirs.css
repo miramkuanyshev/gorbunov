@@ -1,0 +1,35 @@
+.content-memoirs {
+  width: 1000px;
+  margin: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ce2b30;
+  opacity: 0.9;
+  border-radius: 10px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: calc(97vh - 100px);
+  overflow-y: auto;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.content-memoirs__title {
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px;
+  position: sticky;
+  top: 0px;
+  background-color: #ce2b30;
+
+
+}
+
+.content-memoirs::-webkit-scrollbar {
+  display: none;
+}
